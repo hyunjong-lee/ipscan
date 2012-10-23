@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class MySQL implements Database
+public class MySQL
 {
 	public MySQL(String uri, String id, String password) throws Exception
 	{
