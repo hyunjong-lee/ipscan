@@ -4,5 +4,36 @@
 	<classpathentry kind="src" path="Judge"/>
 	<classpathentry kind="src" path="Util"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="Ext/commons-collections-3.2.1.jar" sourcepath="Ext/commons-collections-3.2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/ipscan/Ext/commons-collections-3.2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Ext/commons-dbcp-1.4.jar" sourcepath="Ext/commons-dbcp-1.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/ipscan/Ext/commons-dbcp-1.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Ext/commons-dbutils-1.5.jar" sourcepath="Ext/commons-dbutils-1.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/ipscan/Ext/commons-dbutils-1.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Ext/commons-exec-1.1.jar" sourcepath="Ext/commons-exec-1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/ipscan/Ext/commons-exec-1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Ext/commons-io-2.4.jar" sourcepath="Ext/commons-io-2.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/ipscan/Ext/commons-io-2.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Ext/commons-logging-1.1.1.jar" sourcepath="Ext/commons-logging-1.1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/ipscan/Ext/commons-logging-1.1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Ext/commons-net-3.1.jar" sourcepath="Ext/commons-net-3.1-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
