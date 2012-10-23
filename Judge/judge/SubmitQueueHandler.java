@@ -1,12 +1,18 @@
 package judge;
 
+import java.util.Comparator;
 import java.util.concurrent.PriorityBlockingQueue;
 import common.ProblemSubmit;
 import common.ProblemSubmitComparator;
 
 public class SubmitQueueHandler 
 {
-	private PriorityBlockingQueue<ProblemSubmit> jobQueue = new PriorityBlockingQueue<ProblemSubmit>(1000, new ProblemSubmitComparator());
+	private PriorityBlockingQueue<ProblemSubmit> jobQueue = null;
+	
+	public SubmitQueueHandler(int maxSubmitPoolSize, Comparator<ProblemSubmit> submitQueueComparator)
+	{
+		jobQueue = new PriorityBlockingQueue<ProblemSubmit>(maxSubmitPoolSize, submitQueueComparator);
+	}
 	
 	private boolean IsEmpty()
 	{
