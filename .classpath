@@ -35,6 +35,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="Ext/commons-net-3.1.jar" sourcepath="Ext/commons-net-3.1-sources.jar"/>
-	<classpathentry kind="lib" path="library/mysql-connector-java-5.1.17-bin.jar"/>
+	<classpathentry kind="lib" path="Ext/mysql-connector-java-5.1.17-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
