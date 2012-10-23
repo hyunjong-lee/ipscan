@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="Judge"/>
 	<classpathentry kind="src" path="Util"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="library/mysql-connector-java-5.1.17-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
