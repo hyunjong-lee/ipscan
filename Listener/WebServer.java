@@ -20,7 +20,7 @@ public class WebServer {
                         Executors.newCachedThreadPool()));
 
         // Set up the event pipeline factory.
-        bootstrap.setPipelineFactory(new HttpSnoopServerPipelineFactory());
+        bootstrap.setPipelineFactory(new WebServerPipelineFactory());
 
         // Bind and start to accept incoming connections.
         bootstrap.bind(new InetSocketAddress(port));
